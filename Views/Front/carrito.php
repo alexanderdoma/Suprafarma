@@ -1,7 +1,21 @@
 <?php
+include '../../Templates/componentes.php';
+echo generarHead('Nombre del producto');
+?>
 
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHP.php to edit this template
- */
 
+<body>
+
+<!--PHP Component-->
+<?php echo generarHeader(); ?>
+
+
+<main >
+    Esto es el carrito
+</main>
+
+<!--PHP Component-->
+<?php
+echo generarFooter();
+?>
+</body>
